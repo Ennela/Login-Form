@@ -25,7 +25,7 @@ try {
     echo "<div style='font-family: sans-serif; text-align: center; margin-top: 50px; background: #f0fdf4; padding: 30px; border-radius: 10px; border: 1px solid #bbf7d0; max-width: 500px; margin-left: auto; margin-right: auto;'>";
     echo "<h2 style='color: #166534;'>🎉 Khởi tạo cơ sở dữ liệu thành công!</h2>";
     echo "<p style='color: #15803d; margin-bottom: 20px;'>Database <b>php_login_demo</b> và bảng <b>users</b> đã sẵn sàng.</p>";
-    echo "<a href='register.php' style='padding: 10px 20px; background: #4f46e5; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;'>Đi đến trang Đăng ký</a>";
+    echo "<a href='../views/register.php' style='padding: 10px 20px; background: #4f46e5; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;'>Đi đến trang Đăng ký</a>";
     echo "</div>";
     
 } catch(PDOException $e) {
